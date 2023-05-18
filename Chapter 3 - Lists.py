@@ -1,4 +1,4 @@
-# Chapter 3 - Lists 5/17/2023
+# Chapter 3 - Lists 5/17/2023 - 5/18/2023
 names = ['zach','riley','andrew']
 print(names[0])
 print(names[1])
@@ -12,3 +12,30 @@ bikes = ['Kawasaki','Susuki','Honda']
 print('I use to own a',bikes[1])
 print('I have a',bikes[0])
 print('I want to get a',bikes[2])
+
+guestList = ['Neil Armstrong,','Neil Degrasse Tyson,','Galileo Galilei,']
+message = 'I would like to formal invite you for dinner tonight.'
+print(guestList[0],message)
+print(guestList[1],message)
+print(guestList[2],message)
+print(guestList[1],'will not be attending tonight.')
+del guestList[1]
+guestList.append('Kitboga,')
+print(guestList[0],message)
+print(guestList[1],message)
+print(guestList[2],message)
+print(len(guestList))
+
+places = ['tokyo','hawaii','jamaica','germany','greece']
+print(places)
+print(sorted(places))
+print(places)
+places.reverse()
+print(places)
+places.reverse()
+print(places)
+places.sort()
+print(places)
+places.sort(reverse=True)
+print(places)
+print(len(places))

@@ -1,4 +1,4 @@
-# Chapter 3 - Lists 5/17/2023 - 5/18/2023
+# Chapter 3 - Lists
 names = ['zach','riley','andrew']
 print(names[0])
 print(names[1])

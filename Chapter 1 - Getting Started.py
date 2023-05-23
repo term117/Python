@@ -1,2 +1,2 @@
-# Chapter 1 - Getting Started 5/17/2023
+# Chapter 1 - Getting Started
 print('Hello Python World!')

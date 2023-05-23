@@ -1,4 +1,4 @@
-# Chapter 2 - Variables and Simple Data Types 5/17/2023
+# Chapter 2 - Variables and Simple Data Types
 bestGame = "Skyrim"
 print(bestGame)
 bestGame = "Valhiem"

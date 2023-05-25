@@ -9,9 +9,11 @@ print(message,names[1])
 print(message,names[2])
 
 bikes = ['Kawasaki','Susuki','Honda']
-print('I use to own a',bikes[1])
+print('\nI use to own a',bikes[1])
 print('I have a',bikes[0])
 print('I want to get a',bikes[2])
+
+print('')
 
 guestList = ['Neil Armstrong,','Neil Degrasse Tyson,','Galileo Galilei,']
 message = 'I would like to formal invite you for dinner tonight.'
@@ -25,6 +27,8 @@ print(guestList[0],message)
 print(guestList[1],message)
 print(guestList[2],message)
 print(len(guestList))
+
+print('')
 
 places = ['tokyo','hawaii','jamaica','germany','greece']
 print(places)
